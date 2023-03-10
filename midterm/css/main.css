@@ -119,3 +119,7 @@ h5{
     box-shadow: 1px 1px 1px;
     
 }
+footer{/*the footer position and colour*/
+    float: right;
+    color: azure;
+}

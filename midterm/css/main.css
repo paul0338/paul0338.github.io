@@ -1,9 +1,9 @@
 body{
     font-size: larger;
-    background-color: rgba(75, 189, 151, 0.288);
+    background-color:#006341;
 }
 .wrapper{
-    background-color: rgba(43, 114, 108, 0.644);
+    background-color:antiquewhite;
     
     width: 1024px;
     margin: auto;
@@ -58,6 +58,8 @@ nav ul li a {
 
 padding: 9px;
 font-size: larger;
+position: relative;
+bottom: 100px;
 }
 
 .image2{
@@ -67,17 +69,51 @@ font-size: larger;
 }
 .main2{
     padding: 9px;
+    position: relative;
+    bottom: 120px;
 }
 .main3{
-    padding-left: 20px;
+   
     position: relative;
+    left: 10px;
+    bottom: 120px;
+    
+    box-sizing: content-box;
+    width: 93%;
+    height:400px;
+    border: solid black;
+    padding: 20px;
+ 
     
 }
-#name,#email{
+h4{
+    font-size: larger;
+    position: relative;
+    bottom: 150px;
+
+}
+h5{
+    font-size: large;
+}
+#y-name,#y-email{
     
     width: 950px;
 }
-#message{
-    width: 950px;
+#y-message{
     height: 50px;
+    width: 950px;
+    
+    
+}
+.radio-type{
+    position: relative;
+    top: 5px;
+
+}
+.submit-button{
+    position: relative;
+    top: 20px;
+    padding: 15px 10px;
+    border:3px solid black;
+    box-shadow: 1px 1px 1px;
 }

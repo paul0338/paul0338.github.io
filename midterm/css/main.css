@@ -1,8 +1,8 @@
-body{
+body{ /*targetted the body tag so that i can change the font and the whole baground colour*/
     font-size: larger;
     background-color:#006341;
 }
-.wrapper{
+.wrapper{/*targetted the wrapper  to give it a position in the center and a unique colour to it*/
     background-color:antiquewhite;
     
     width: 1024px;
@@ -11,7 +11,7 @@ body{
     
 }
 
-.heading-main{
+.heading-main{/*i used this to position Sion Paul in the required spot*/
    text-align: center;
     position: relative;
     left: 0%;
@@ -22,7 +22,7 @@ body{
     
 }
 
-nav ul li{
+nav ul li{/*used this to place the home , story and contact lists  in the required order giving a black border to its left*/
     display: inline-block;
     width: 50px;
     position: relative;
@@ -39,7 +39,7 @@ nav ul li{
     
     }
 
-nav ul li a {
+nav ul li a {/*was used to remove the default text decoration  of the anchor and made it look according to the given prototype*/
     
     display: inline-block;
     width: 80px;
@@ -50,11 +50,11 @@ nav ul li a {
     font-weight: bold;
     text-align: center;
             }
-.border1{
+.border1{/*used this to remove the extra border in the left to make it look exactly like the other one */
     border-left:0px solid ;
 }
 
-.main1{
+.main1{/*used this to style the part containing the article and positioning it*/
 
 padding: 9px;
 font-size: larger;
@@ -62,17 +62,17 @@ position: relative;
 bottom: 100px;
 }
 
-.image2{
+.image2{/*used this to bring the image 2 to the left */
     width:200px;
     padding-right: 20px;
     float: left;
 }
-.main2{
+.main2{/*used this to style the part containing the list*/
     padding: 9px;
     position: relative;
     bottom: 120px;
 }
-.main3{
+.main3{/*used this to style the labels and create a box around it and style it  */
    
     position: relative;
     left: 10px;
@@ -90,16 +90,17 @@ h4{
     font-size: larger;
     position: relative;
     bottom: 150px;
+    padding-left: 12px;
 
 }
 h5{
     font-size: large;
 }
-#y-name,#y-email{
+#y-name,#y-email{/*used this to style the input for the label*/
     
     width: 950px;
 }
-#y-message{
+#y-message{/*used this to style the input for the label with an addition of extra height to it*/
     height: 50px;
     width: 950px;
     
@@ -110,7 +111,7 @@ h5{
     top: 5px;
 
 }
-.submit-button{
+.submit-button{/*styled the submit button to a better looking one that matches the given prototypes one*/
     position: relative;
     top: 20px;
     padding: 15px 10px;

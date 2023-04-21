@@ -1,11 +1,11 @@
 
 
 
-.wrapper1{
-    background-color: rgb(43, 49, 49);
+.wrapper1{                  /* this was used to create the dark coloured body in which the logo image was placed */
+    background-color: #222;
     text-align: center;
     margin: auto;
-    height: 530px;
+    height: 530px;                    
    max-width: 1200px;
    padding-right: 1%;
    
@@ -14,30 +14,30 @@
 .logo-image{
     padding-top: 15px;
     padding-left: 15px;
-    display: block;
+    display: block;             /*logo image styled */
     position: relative;
     bottom: 12px;
     right: 10px; 
     max-width: 1200px;
 }
 .first-image{
-    background-color: rgb(192, 141, 14);
-    padding-bottom: 140px;
-    position: relative;
+    background-color: #c78c06;
+    padding-bottom: 140px; /*gave a certain background so as to match it whith logo */
+    position: relative; /* */
     top: 5px;
     max-width: 1200px;
     
 }
 header nav ul{
     padding-top: 15px;
-    padding-left: 15px;
+    padding-left: 15px;         
     
     
 }
 nav ul li{
     list-style: none;
     padding: 15px;
-    position: relative;
+    position: relative;/* removed the list style */
     bottom: 45px;
     
 }
@@ -45,9 +45,9 @@ nav ul li{
     padding-bottom: 0%;
 }
 a{
-    text-decoration: none;
-    font-family:Arial, Helvetica, sans-serif;
-    color: darkgoldenrod;
+    text-decoration: none;                /*sorry was not able to put the tiny search logos for the boxes*/
+    
+    color: #c78c06;
 }
 .home-html a{
     color: black;
@@ -55,7 +55,7 @@ a{
 .search-bar input[type=text]{
     width:90%;
     height: 25px;
-    position: relative;
+    position: relative;/* the search bar */
     right: 10px;
     bottom: 20px;
 }
@@ -63,7 +63,7 @@ a{
 
 
 .body-1{
-    margin: auto;
+    margin: auto;/* the first section i divided */
     text-align: center;
     max-width: 1200px;
     width: 100%;
@@ -74,14 +74,14 @@ a{
 
 .body-1 img{
     margin: auto;
-    max-width: 1200px;
+    max-width: 1200px;/* banner image*/
     width: 100%;
     text-align: center;
     
     
 }
 .body-1-data {
-    background-color: rgba(0, 0, 0, 0.486);
+    background-color: rgba(0, 0, 0, 0.486);/*used this to give a slight black colour in the welcome to three star media */
     position: relative;
     bottom: 500px;
     text-align: left;
@@ -100,7 +100,7 @@ a{
 
 .body-1-data a{
     color: black;
-    background-color: darkgoldenrod;
+    background-color: #c78c06;
     padding:20px;
     margin-bottom: 50%;
 
@@ -112,7 +112,7 @@ a{
 
 
 .body-2{
-    background-color:#ffe6ac;
+    background-color:#ffe6ac;/* started styling body 2 here the colour beside was the background colour given*/
     max-width: 1200px;
     margin: auto;
     text-align: center;
@@ -133,7 +133,7 @@ a{
     padding-left: 2%;
 }
 .body-2 p{
-    font-weight:5px;
+    
     text-align: left;
     padding-left: 2%;
 }
@@ -158,7 +158,7 @@ a{
     margin: auto;
     font-size: x-large;
     font-weight:bolder;
-    position: relative;
+    position: relative;/*used this to style our services part */
     bottom: 430px;
 }
 .body-3 img{
@@ -189,7 +189,7 @@ position: relative;
     text-align: left;
     padding-top:90px;
     padding-bottom:40px;
-    position: relative;
+    position: relative;/*was used to style the gigital transformation part */
     bottom: 120px;
 }
 
@@ -209,9 +209,9 @@ position: relative;
     bottom: -20px;
     right: -3%;
     
-    color: aqua;
+    color: white;/*used this to style the button */
 
-    background-color: black;
+    background-color: #222;
 }
 
 
@@ -223,7 +223,7 @@ position: relative;
 
 
 .body-5{
-    text-align: center;
+    text-align: center;/*was used to stylemarketing part */ 
     max-width: 1200px;
     margin: auto;
 }
@@ -236,7 +236,7 @@ position: relative;
 }
 
 .body-5 img{
-    width: 100%;
+    width: 100%;/* video production part*/
     
       
 }
@@ -250,10 +250,11 @@ font-size: xx-large;
 .body-5 a{
     padding-left: 2%;
     padding: 20px;
-    background-color: black;
+    background-color:#222;
     margin-left: 20px;
     position: relative;
     top: 30px;
+    color:white;
 }
 
 
@@ -269,7 +270,7 @@ font-size: xx-large;
 .body-6{
     text-align: center;
     max-width: 1200px;
-    margin: auto;
+    margin: auto;/* styled web development part*/
 }
 .body-6-data{
     position: relative;
@@ -294,10 +295,11 @@ font-size: xx-large;
 .body-6 a{
     padding-left: 2%;
     padding: 20px;
-    background-color: black;
+    background-color:#222;
     margin-left: 20px;
     position: relative;
     top: 30px;
+    color: white;
 }
 
 
@@ -309,7 +311,7 @@ font-size: xx-large;
     margin: auto;
 }
 .body-7-data{
-    position: relative;
+    position: relative;/*styled print part */
     bottom: 380px;
     text-align: left;
     background-color: #ffe6ac;
@@ -331,7 +333,8 @@ font-size: xx-large;
 .body-7 a{
     padding-left: 2%;
     padding: 20px;
-    background-color: black;
+    background-color:#222;
+    color: white;
     margin-left: 20px;
     position: relative;
     top: 30px;
@@ -374,7 +377,8 @@ font-size: xx-large;
 .body-8 a{
     padding-left: 2%;
     padding: 20px;
-    background-color: black;
+    background-color:#222;
+    color: white;
     margin-left: 20px;
     position: relative;
     top: 30px;
@@ -386,4 +390,267 @@ font-size: xx-large;
 
 
 
+.body-9{
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    
+}
 
+
+.body-9 img{/*our vision part was styled here */
+    
+    
+    width: 105%;
+    position: relative;
+    left: -25px;
+    text-align: center;
+}
+.body-9-info{
+    padding-left: 15px;
+    padding-right:15px ;
+    position: relative;
+    bottom: 500px;
+    color: white;    
+    text-align: left;
+}
+
+
+.body-9 p{
+    font-size: large;
+}
+.body-9 a{
+    padding: 40px;
+    background-color:#22222285;
+    border:#c78c06 1px solid ;
+    position: relative;
+  top: 50px;
+  padding-right: 50px;
+  color: white;
+}
+.body-9 h3{
+    font-size: 60px;
+    
+}
+.body-9{
+    position: relative;
+    bottom: 330px;
+}
+
+
+
+
+
+
+
+.body-10{
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;/* our team part styled here*/
+}
+
+.body-10 h3{
+    font-size: 50px;
+}
+
+.mate-1{
+    background-color: #ffe6ac;
+    padding-bottom: 20px;
+    
+    
+    
+    
+}
+.mate-1-info{
+    padding-left: 10px;/*john was styled here */
+    
+}
+
+.body-10-data img{
+    width: 100%;
+}
+
+.mate-2{
+    background-color: #ffe6ac;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    position: relative;
+    top: 20px;
+}
+
+
+
+.mate-1 h4{
+    font-size: 30px;
+    
+    margin: 0%;
+} 
+.mate-1 h5{
+    font-size: large;
+    
+    text-decoration: underline #c78c06;
+    
+    margin: 0%;
+    
+}
+.mate-2 h4{/*bob was styled here */
+    font-size: 30px;
+    
+    margin: 0%;
+} 
+.mate-2 h5{
+    font-size: large;
+    
+    
+    text-decoration: underline #c78c06;
+    margin: 0%;
+    
+}
+
+.body-10-data{
+    text-align: left;
+    position: relative;
+    bottom: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+.body-11-info{
+    text-align: left;
+}
+#email,#fullname{/*used to style the contact us page and the send button */ 
+    max-width: 1200px;
+    width: 100%;
+}
+#message{
+    max-width: 1200px;
+    width: 100%;
+    height: 100px;
+}
+.body-11 a{
+    
+    padding: 15px;
+    background-color: black;
+    
+    position: relative;
+    top: 30px;
+    font-size: large;
+   
+}
+.body-11 h4{
+    font-size: xx-large;
+    
+    margin: 0%;
+}
+.body-11 h5{
+    font-size: x-large;
+    
+    margin: 0%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.body-11{
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    bottom: 550px;
+}
+
+
+
+
+/*used to style the hours of operation part */
+
+th, td{
+    background-color: white;
+    padding:2rem;
+    
+    
+    padding: 20px;
+    border: 1px solid  black;
+ }
+ table{
+    max-width: 1200px;
+    width: 100%;
+ }
+
+ th{
+    background-color: #ffe6ac;
+ }
+ .body-12-data{
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    bottom: 480px;
+ }
+ .body-12 h4{
+    text-align: left;
+    font-size: xx-large;
+    margin: 0%;
+    margin-bottom: 2%;
+ }
+ 
+ 
+ 
+ 
+
+
+ .body-13{
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    bottom:400px;
+ }
+  
+ .body-13 h4{
+    font-size: xx-large;
+    margin: 0%;
+    margin-bottom: 2%;
+    text-align: left;
+ }
+ iframe{
+    width: 100%;/*used this to style my map */ 
+ }
+ footer{
+    background-color: #222;
+    text-align: center;
+    max-width: 1200px;/*the footer styled here */
+    margin: auto;
+    position: relative;
+    bottom:400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+ footer p{
+    color:#c78c06 ;
+    text-align: left;
+    padding-left: 10px;
+ }
+
+
+
+
+
+
+
+
+
+
+ @media screen and (min-width:760px) {/*added a media query for 760px and above */
+    body {
+        font-family: sans-serif, 'Open sans';
+
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}

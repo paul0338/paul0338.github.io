@@ -648,9 +648,8 @@ th, td{
 
  @media screen and (min-width:760px) {/*added a media query for 760px and above */
     body {
-        font-family: sans-serif, 'Open sans';
+        
 
-        margin-left: 1rem;
-        margin-right: 1rem;
+        padding: 0%;
     }
 }
